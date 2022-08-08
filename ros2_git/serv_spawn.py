@@ -4,6 +4,7 @@ from example_interfaces.srv import*
 from turtle import*
 from turtlesim.srv import*
 from turtlesim.msg import*
+from functools import*
 
 class SpawnServer(Node):
     def __init__(self):
