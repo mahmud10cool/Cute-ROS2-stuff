@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'service_spawner = ros2_git.serv_spawn:main'
         ],
     },
 )
